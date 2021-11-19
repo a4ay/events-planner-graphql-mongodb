@@ -13,7 +13,7 @@ const User = new Schema({
     },
     createdEvents : [{
         type : Schema.Types.ObjectId,
-        ref : 'Event'
+        ref : 'event'
     }]
 
 })
